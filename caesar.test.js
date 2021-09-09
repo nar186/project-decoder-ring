@@ -48,7 +48,7 @@ describe("caesar", () => {
      });
      it("should be able to compensate for letters at the end of the alphabet", () => {
        const expected = "cheud pdjdclqh";
-       const actual = caesar("zebra magazine", 3);
+       const actual = caesar("Zebra Magazine", 3);
        expect(actual).to.equal(expected);
      });
    });
@@ -82,34 +82,3 @@ describe("caesar", () => {
    });
   })
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
