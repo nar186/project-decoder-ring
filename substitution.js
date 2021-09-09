@@ -68,30 +68,3 @@ const trueAlphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"
 })();
 
 module.exports = { substitution: substitutionModule.substitution };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
