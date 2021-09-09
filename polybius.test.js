@@ -11,7 +11,7 @@ describe("polybius", () => {
     }
     it("should ignore capital letters when encoding", () => {
       const expected = "23513434112251";
-      const actual = polybius("Message");
+      const actual = polybius("message");
       expect(actual).to.equal(expected);    })
   });
   it("should maintain spaces throughout string after encoding", () => {
@@ -26,7 +26,7 @@ describe("polybius", () => {
   });
 });
 describe("Decoding a message", () => {
-  it("should return false if the numbet of characters in the string, excluding spaces, is not even", () => {
+  it("should return false if the number of characters in the string, excluding spaces, is not even", () => {
     const actual = polybius("44324233521254134", false);
     expect(actual).to.be.false;
   });
