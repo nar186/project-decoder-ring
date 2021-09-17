@@ -4,11 +4,11 @@ const {polybius} = require("../src/polybius");
 
 describe("polybius", () => {
   describe("Encoding a message", () => {
-    it("should return a string with each letter converted into the polybius square specified number"), () => {
+    it("should return a string with each letter converted into the polybius square specified number", () => {
       const expected = "44513444";
       const actual = polybius("test");
       expect(actual).to.equal(expected);
-    }
+    });
     it("should ignore capital letters when encoding", () => {
       const expected = "23513434112251";
       const actual = polybius("message");
